@@ -1,0 +1,66 @@
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 3rem;
+}
+
+/*utilidades*/
+
+.font-w300 {
+    font-weight: 300;
+}
+
+
+
+.bg-dark {
+    background-color: rgb(68, 67, 67);
+}
+
+.estilo-marker {
+    font-family: 'Permanent Marker', cursive;
+    color: tomato;
+}
+
+.site-header {
+    background:linear-gradient(
+        rgba(0, 0, 0, 0.2), 
+        rgba(0, 0, 0, 0.7)
+      ), url(../img/header-tambo.JPG);
+    
+    background-position: center center;
+    min-height: 50vh;
+    width: 100%;
+    min-width: 540px;
+    padding-top: 2rem;
+}
+
+.barra {
+    padding: 1.3rem;
+}
+main {
+    min-height: 40vh;
+}
+.link-horario {
+   margin-bottom: 1rem;
+}
+.duracion-clases {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+.importante {
+    color: tomato;
+
+}
+footer {
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--dark);
+    min-height: 10vh;
+}
